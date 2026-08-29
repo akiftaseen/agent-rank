@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Vitrine",
+      "hasCanvas": false,
+      "bodyTextLen": 2023,
+      "bodyTextHash": "65b25cb7b93fab587e21c1e5f173f8b72e7bbb6430f3aaa692f4d88d3a253f0a",
+      "bodyTextPrefix": "Vitrine Methodology Open demo AI COMMERCE EVIDENCE · SHOPIFY-FIR",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Vitrine",
+      "hasCanvas": false,
+      "bodyTextLen": 2023,
+      "bodyTextHash": "65b25cb7b93fab587e21c1e5f173f8b72e7bbb6430f3aaa692f4d88d3a253f0a",
+      "bodyTextPrefix": "Vitrine Methodology Open demo AI COMMERCE EVIDENCE · SHOPIFY-FIR",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

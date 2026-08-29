@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/app",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Vitrine",
+      "hasCanvas": false,
+      "bodyTextLen": 2675,
+      "bodyTextHash": "2e525501bc5da4ee5128f77f807c4598986c61d324daaba39991aefd7fec2af3",
+      "bodyTextPrefix": "Vitrine WORKSPACE Ridgeway ridgeway.example Overview Intents Pro",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/overview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Vitrine",
+      "hasCanvas": false,
+      "bodyTextLen": 2392,
+      "bodyTextHash": "124e0b4df95fe18b860d8ba189ce138273005e11fc7fa3c238d59e5b171c6c3d",
+      "bodyTextPrefix": "Ridgeway · en-US · Index 60 · moderate confidence Signal classes",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/overview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/overview.json"
+}

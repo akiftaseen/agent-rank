@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-B-hcVAMW.js";import{t}from"./useRouterState-Ogg-YN9s.js";import{k as n}from"./index-CZHe0YJi.js";var r=e(),i=function(){return t({select:e=>e.location.pathname}),(0,r.jsx)(n,{})};export{i as component};

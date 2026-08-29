@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --color-background: #0b0c0e;
+  --color-foreground: #eceef2;
+  --color-card: #14171d;
+  --color-card-foreground: #eceef2;
+  --color-popover: #1a1e26;
+  --color-popover-foreground: #eceef2;
+  --color-primary: #9eb0c4;
+  --color-primary-foreground: #0b0c0e;
+  --color-secondary: #1c212b;
+  --color-secondary-foreground: #eceef2;
+  --color-muted: #1c212b;
+  --color-muted-foreground: #8b909c;
+  --color-accent: #222833;
+  --color-accent-foreground: #eceef2;
+  --color-destructive: #c47a72;
+  --color-destructive-foreground: #0b0c0e;
+  --color-border: #2a303c;
+  --color-input: #2a303c;
+  --color-ring: #9eb0c4;
+  --color-steel: #9eb0c4;
+  --color-ink: #0b0c0e;
+  --color-elevated: #1a1e26;
+  --color-positive: #7d9a82;
+  --color-caution: #c4a574;
+  --color-danger: #c47a72;
+  --color-info: #7a93a8;
+  --color-paper: #d8dce4;
+  --color-subtle: #6b7080;
+
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius: 0.75rem;
+
+  --shadow-panel: 0 1px 0 rgba(255, 255, 255, 0.04), 0 12px 40px rgba(0, 0, 0, 0.28);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "ss01" 1, "kern" 1;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-primary) 35%, transparent);
+    color: var(--color-foreground);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
